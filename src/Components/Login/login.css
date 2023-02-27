@@ -1,0 +1,124 @@
+
+#login{
+                
+    font-family: 'Oswald', sans-serif;
+    width: 70%;
+    box-shadow: 2px 2px 7px 1px grey ;
+    margin-top:8% ;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+    margin-top: 10%;
+    border-radius: 2%;
+
+    
+}
+#login #h1{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    color:#60b246
+}
+#login button{
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+#login body{
+    background-image: url('../Images/banner-bg.webp');
+}
+
+#login .col img{
+    box-shadow: 2px 2px  6px 3px grey ;
+    margin-left: 10%; 
+    border-radius: 4%;
+    width: 140%;
+    height:100%;
+    object-fit: cover;
+}
+
+#login .col {
+    padding-bottom: 5%;
+}
+
+ #login #col1 {
+    margin-left: 10%;
+} 
+
+.custom-form-group label {
+    color:#60b246;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:2px;
+  }
+  .custom-form-group span {
+    width:32px;
+    border-bottom:1px solid #60b246;
+    vertical-align:middle;
+    color:#60b246;
+    display:inline;
+  }
+  .custom-form-group input {
+    width : calc(100% - 32px);
+    border:none;
+    text-transform: none;
+    border-radius: 5px;
+    background-color: inherit;
+    border-bottom:1px solid#60b246;;
+    box-sizing:content-box;
+    outline:none;
+  }
+  .custom-btn {
+    border-radius:32px;
+    background : #60b246;
+    border:2px solid transparent;
+    color:#fff;
+    height:48px;
+  }
+  .custom-btn:hover {
+    background : #fff;
+    border:none;
+    border:2px solid#60b246;
+    color:#60b246;
+  }
+  #formPanel {
+    min-width:280px;
+    max-width:320px;
+    width:100%;
+    margin:0 auto;
+  }
+.objectFit {
+    object-fit:cover;
+    width:100%;
+    max-width:320px;
+    min-height:60vh;
+    margin:0 auto
+}
+
+#showCursor {
+    cursor:pointer
+}
+.link{
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+.link .linklabel{
+    text-decoration: none;
+    
+    text-transform: capitalize;
+  }
+
+  .link .linklabel:hover{
+    text-transform: uppercase;
+    color: #60b246;
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+.grd{
+    border-radius: 20px;
+    border: solid 1px #60b246;
+}
+
+.customHeading {
+    color:#60b246;
+  }

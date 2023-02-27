@@ -1,0 +1,85 @@
+back{
+    background-color: #fff;
+  }
+  .grd{
+      border-radius: 30px;
+      border: solid 1px #60b246;
+      
+  }
+  
+  .customHeading {
+      color:#60b246;
+      ;
+    }
+    .custom-form-group label {
+      color:#60b246;
+      font-size:13px;
+      font-weight:bold;
+      letter-spacing:2px;
+    }
+    .custom-form-group span {
+      width:32px;
+      border-bottom:1px solid #60b246;
+      vertical-align:middle;
+      color:#60b246;
+      display:inline;
+    }
+    .custom-form-group input {
+      width : calc(100% - 32px);
+      border:none;
+      border-radius: 5px;
+      background-color: inherit;
+      border-bottom:1px solid#60b246;;
+      box-sizing:content-box;
+      outline:none;
+    }
+    .custom-btn {
+      border-radius:32px;
+      background : #fff;
+      border:2px solid #60b246;
+      color:#60b246;
+      height:48px;
+    }
+    .custom-btn:hover {
+      background : #60b246;
+      border:none;
+      border:2px solid#fff;
+      color:#fff;
+      transition: 0.2s;
+    }
+    #formPanel {
+      min-width:280px;
+      max-width:320px;
+      width:100%;
+      margin:0 auto;
+    }
+    .objectFit {
+      object-fit:cover;
+      width:100%;
+      max-width:320px;
+      min-height:60vh;
+      margin:0 auto
+    }
+    #showCursor {
+      cursor:pointer
+    }
+    .link{
+      font-size: 13px;
+      text-decoration: none;
+    }
+  
+    .link .linklabel{
+      text-decoration: none;
+      
+      text-transform: capitalize;
+    }
+  
+    .link .linklabel:hover{
+      text-transform: uppercase;
+      color: #60b246;
+      font-weight: 800;
+      font-size: 15px;
+    }
+    .form{
+      width: 100%;
+    }
