@@ -1,0 +1,25 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+.Buttongreen{
+    background-color: #60b246 ;
+    border-color: #60b246;
+}
+.Buttongreen:hover {
+    color:#60b246;
+    background-color: #ffffff;
+    border-color: #60b246;
+}
+.Cardsdiv{
+    margin: 10px;
+}
+.cardcssa{
+    width: 200;
+}
+.imgsize{
+    width: 100%;
+    height: 20%;
+}
+.heads{
+    color: #60b246;
+}

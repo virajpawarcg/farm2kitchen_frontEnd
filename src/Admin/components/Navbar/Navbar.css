@@ -1,0 +1,15 @@
+.navbaradmin{
+    height: 70px;
+    background-color: aquamarine;
+}
+.navbar .container-fluid .navbar-brand{
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.collapse .navbar-nav a{
+    font-size: 20px;
+    margin-left: 20px;
+}
