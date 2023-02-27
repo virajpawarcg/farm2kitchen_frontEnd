@@ -1,0 +1,12 @@
+/* .carouselExampleControls .carousel-inner .carousel-item .d-block { 
+    height: 10px;
+}  */
+.carouselExampleControls .carousel-inner .carousel-item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+.carousel{
+
+    width: 100%;
+}

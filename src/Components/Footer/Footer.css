@@ -1,0 +1,19 @@
+/* Footer starts here */
+
+.footer{
+  color: #60b246;
+  position: static;
+  margin-top: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  /* color: #ffffff; */
+  text-align: center;
+  /* height: 50px;   */
+  border: 1px;
+  padding: 10px;
+  font-size: medium;
+}
+
+/* Footer ends here */
