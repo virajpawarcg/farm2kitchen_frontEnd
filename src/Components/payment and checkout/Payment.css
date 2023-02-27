@@ -1,0 +1,272 @@
+* {
+    font-family: roboto;
+}
+
+/* Scrollbar  */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4e5269;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(72, 70, 79);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* .sticky #box {
+padding-top: 60px;
+} */
+#main_header {
+    overflow: hidden;
+    position: sticky;
+    /* height: 95px; */
+    width: 98%;
+    /* border: 1px solid red; */
+    box-shadow: 0 3px 4px rgb(0 0 0 / 20%);
+    padding: 0px 20px 0px 10px;
+    background-color: #f0f1f7;
+}
+
+#mainSection {
+    margin: auto;
+    /* border: 1px solid teal; */
+}
+
+
+#headerLeft {
+   display: flex;
+   justify-content: space-between;
+}
+#cartmove >a{
+   color: black;
+   font-size: 12px;
+   text-decoration: underline;
+}
+
+
+
+.leftHeaderLogoBox {
+    /* border: 1px dashed red; */
+    cursor: pointer;
+}
+
+.leftHeaderLogoBox img {
+    height: 50px;
+    width: 180px;
+}
+
+#containerSec>h1 {
+    margin-left: 10px;
+}
+
+/* Right part  */
+#contData {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+#totalValue {
+    width: 25%;
+    /* border: 1px solid yellow; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #f0f1f7;
+    height: 300px;
+    min-width: 300px;
+
+}
+
+#totalValue>h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #545871;
+}
+
+.tItems,
+.tAmt {
+    display: flex;
+    /* border: 1px dashed teal; */
+    margin: 10px;
+    justify-content: space-between;
+    margin-right: 20px;
+
+}
+
+.tItems>div,
+.tAmt>div {
+    font-size: 18px;
+}
+
+.tItems2,
+.tAmt2 {
+    font-weight: bold;
+}
+
+.checkout {
+    /* border: 1px dashed violet; */
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+
+.checkout>button {
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: #414467;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.checkout>button:hover {
+    background-color: rgb(23, 23, 23);
+}
+
+#form2 {
+    /* border: 1px solid blue; */
+    /* display: block; */
+    margin-right: 500px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    border-radius: 5px;
+    /* content-visibility: hidden;  */
+}
+
+#form3 {
+    /* border: 1px solid blue; */
+    /* display: block; */
+    margin-right: 500px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px;
+    border-radius: 5px;
+    /* visibility: hidden;   */
+    /* content-visibility: hidden;  */
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.containerPay {
+    padding: 5px;
+    margin-left: -10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    /* border: 1px solid teal; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+}
+
+.containerPay>div {
+    margin-right: 10px;
+    /* border: 1px dashed goldenrod; */
+}
+
+.containerPay label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.containerPay label:hover {
+    color: teal;
+}
+
+.cardPayOption img {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.cardPayOption {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="month"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+    color: blue;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    margin-top: 3px;
+}
+
+#containerBox img {
+    height: 50px;
+    width: 90px;
+}
+
+.cardPay {
+    content-visibility: hidden;
+}
+
+.UPIPay {
+    content-visibility: hidden;
+}
+#paymentfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-top: 1px solid #7f8294;
+}
+#digicert img{
+    height: 55px !important;
+}
